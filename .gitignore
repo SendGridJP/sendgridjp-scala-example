@@ -1,4 +1,5 @@
-.idea
-target/
+.*
+!.gitignore
 application.conf
 !application.conf.example
+target/
