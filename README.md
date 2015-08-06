@@ -7,12 +7,13 @@
 ```bash
 git clone http://github.com/sendgridjp/sendgridjp-scala-example.git
 cd sendgridjp-scala-example
-cd src/main/resources
+cd src/main/resources/
 cp application.conf.example application.conf
 # application.confファイルを編集してください
-cd ../../..
+cd ../../../
 sbt run
 ```
+
 `{"message":"success"}`と表示されたら送信成功です。
 
 ## application.confファイルの編集
