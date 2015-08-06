@@ -5,7 +5,7 @@
 ## 使い方
 
 ```bash
-git clone http://github.com/sendgridjp/sendgridjp-scala-example.git
+git clone https://github.com/SendGridJP/sendgridjp-scala-example.git
 cd sendgridjp-scala-example
 cd src/main/resources/
 cp application.conf.example application.conf
