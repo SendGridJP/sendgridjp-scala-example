@@ -8,4 +8,3 @@ libraryDependencies ++= Seq(
   "com.sendgrid" % "sendgrid-java" % "2.2.2",
   "com.typesafe" % "config" % "1.3.0"
 )
-
