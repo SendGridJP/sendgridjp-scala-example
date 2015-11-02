@@ -6,6 +6,7 @@ object SendGridScalaExample extends App {
   val apiKey = config.getString("API_KEY")
   val tos = config.getStringList("TOS").toArray(Array[String]())
   val from = config.getString("FROM")
+
   val file = new java.io.File(getClass.getResource("gif.gif").getPath)
 
   val email = new SendGrid.Email()
